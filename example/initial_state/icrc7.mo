@@ -6,7 +6,7 @@ module{
         symbol = ?"MCATS";
         name = ?"Motoko Cats";
         description = ?"A Collection of ICP Masters Motoko Catmates";
-        logo = ?"./mcats.svg";
+        logo = ?"https://github.com/poroburu/icrc_nft.mo/blob/poro-nft-collection/mcats.svg";
         supply_cap = ?5;
         allow_transfers = ?true;
         max_query_batch_size = ?100;

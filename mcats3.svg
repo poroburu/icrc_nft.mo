@@ -1,43 +1,54 @@
- <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 400 400">
-  <!-- Background with ICP gradient -->
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 400 400">
+  <!-- Background with ICP secondary color gradient -->
   <defs>
     <linearGradient id="bgGradient" x1="0%" y1="0%" x2="100%" y2="100%">
-      <stop offset="0%" style="stop-color:#3b00b9"/>
-      <stop offset="100%" style="stop-color:#1e005d"/>
+      <stop offset="0%" style="stop-color:#6A85F1"/>
+      <stop offset="100%" style="stop-color:#C572EF"/>
+    </linearGradient>
+    <!-- Gradient for the infinity mark -->
+    <linearGradient id="SVGID_1_" x1="212.578" x2="23.135" y1="254.208" y2="58.034" gradientUnits="userSpaceOnUse">
+      <stop offset=".22" stop-color="#ed1e79"/>
+      <stop offset=".892" stop-color="#522785"/>
+    </linearGradient>
+    <linearGradient id="SVGID_2_" x1="8260.416" x2="8070.973" y1="8619.375" y2="8423.201" gradientTransform="rotate(180 4311.858 4318.642)" gradientUnits="userSpaceOnUse">
+      <stop offset=".21" stop-color="#f15a24"/>
+      <stop offset=".684" stop-color="#fbb03b"/>
     </linearGradient>
   </defs>
   
-  <!-- Main outer circle -->
+  <!-- Main outer circle with ICP secondary color gradient -->
   <circle cx="200" cy="200" r="190" fill="url(#bgGradient)"/>
   
-  <!-- Inner circle with increased margin -->
-  <circle cx="200" cy="200" r="155" fill="#ffffff"/>
+  <!-- Inner circle with new Infinite color -->
+  <circle cx="200" cy="200" r="155" fill="#1e005d"/>
   
   <!-- Cat Face Base -->
-  <circle cx="200" cy="200" r="140" fill="#f7e3d3"/>
+  <circle cx="200" cy="200" r="140" fill="#3b00b9"/>
   
   <!-- Cat Ears -->
-  <path d="M130 110 Q 160 60 190 110" fill="#f7e3d3" stroke="#29abe2" stroke-width="3"/>
-  <path d="M270 110 Q 240 60 210 110" fill="#f7e3d3" stroke="#29abe2" stroke-width="3"/>
+  <path d="M130 110 Q 160 60 190 110" fill="#1e005d" stroke="#29abe2" stroke-width="3"/>
+  <path d="M270 110 Q 240 60 210 110" fill="#1e005d" stroke="#29abe2" stroke-width="3"/>
   
   <!-- Inner Ears -->
   <path d="M140 100 Q 160 70 180 100" fill="#ed1e79"/>
   <path d="M260 100 Q 240 70 220 100" fill="#ed1e79"/>
   
-  <!-- Original Infinity Mark with just color change -->
+  <!-- New Infinity Mark -->
   <g transform="translate(85,135) scale(0.4)">
-    <path d="M576 136C576 61 513.1 0 436 0c-32.2 0-67.2 16.5-104.3 49-17.5 15.4-32.7 31.8-44.2 45-40-44.6-93.8-94-147.5-94C75.1 0 18.6 44.9 3.8 104.4c0-.1 0-.1.1-.2 0 .1 0 .1-.1.2C1.3 114.6 0 125.1 0 136c0 75 61.9 136 139 136 32.2 0 68.2-16.5 105.3-49 17.5-15.4 32.7-31.8 44.2-45 40.1 44.7 93.9 94 147.6 94 64.9 0 121.4-44.9 136.2-104.4 2.4-10.2 3.7-20.7 3.7-31.6zM298.3 93.9C311.4 79.1 324.4 66 337 55c35.6-31.2 68.9-47 99-47 72.8 0 132 57.4 132 128 0 9.9-1.2 19.8-3.6 29.4-.4 1.1-5.2 14.4-19 27.3-18 16.8-42.3 25.3-72.3 25.3 32.3-14 54.9-45.6 54.9-82 0-49.5-41.3-89.8-92-89.8-19.8 0-44 12.4-72 37-12.6 11-25.3 24-38.8 39.5l-5.3 6.1-27.1-28.9 5.5-6zm-47.8 43.4c-10.7 12.7-26.1 30-43.8 45.5-33 28.9-54.4 35-66.7 35-46.3 0-84-36.7-84-81.8 0-44.8 37.7-81.5 84-81.8 1.7 0 3.7.2 6.2.6 23.9 9.2 45.2 23.7 58 35.5 10.4 9.5 29.1 28.9 46.3 47zm27.2 40.8C264.6 192.9 251.6 206 239 217c-35.1 30.8-69.7 47-100 47-35.1 0-68.1-13.3-92.8-37.6C21.6 202.3 8 170.2 8 136c0-9.9 1.2-19.8 3.6-29.4.4-1.1 5.2-14.4 19-27.3C48.6 62.5 72.9 54 102.9 54 70.6 68 48 99.6 48 136c0 49.5 41.3 89.8 92 89.8 19.8 0 44-12.4 72-37 12.6-11 25.3-24 38.8-39.5l5.3-6.1s26.7 28.5 26.9 28.8l-5.3 6.1zm47.8-43.4c10.7-12.7 26.1-30 43.8-45.5 33-28.9 54.4-35 66.7-35 46.3 0 84 36.7 84 81.8 0 44.8-37.7 81.5-84 81.8-1.7 0-3.7-.2-6.2-.6h.1c-23.9-9.2-45.2-23.8-58.1-35.6-10.4-9.4-29.1-28.8-46.3-46.9zm246.6 33v-.1.1z" fill="#3b00b9"/>
+    <path fill="#29abe2" d="M473 226c-39.3 0-80.8-25.7-101.2-44.4-22.3-20.4-83.5-86.8-83.8-87.1C247.8 49.7 193.9 0 140 0 75.1 0 18.6 44.9 3.8 104.4 5 100.5 25.6 46 103 46c39.3 0 80.8 25.7 101.2 44.4 22.3 20.4 83.5 86.8 83.8 87.1 40.2 44.8 94.1 94.5 148 94.5 64.9 0 121.4-44.9 136.2-104.4-1.2 3.9-21.8 58.4-99.2 58.4z"/>
+    <path fill="url(#SVGID_1_)" d="M288 177.5c-.1-.2-17.8-19.3-37.5-40.1-10.7 12.7-26.1 30-43.8 45.5-33 28.9-54.4 35-66.7 35-46.3 0-84-36.7-84-81.8 0-44.8 37.7-81.5 84-81.8 1.7 0 3.7.2 6.2.6-13.9-5.4-28.7-8.9-43.2-8.9-77.4 0-98 54.5-99.2 58.4C1.3 114.6 0 125.1 0 136c0 75 61.9 136 139 136 32.2 0 68.2-16.5 105.3-49 17.5-15.4 32.7-31.8 44.2-45l-.5-.5z"/>
+    <path fill="url(#SVGID_2_)" d="M288 94.5c.1.2 17.8 19.3 37.5 40.1 10.7-12.7 26.1-30 43.8-45.5 33-28.9 54.4-35 66.7-35 46.3 0 84 36.7 84 81.8 0 44.8-37.7 81.5-84 81.8-1.7 0-3.7-.2-6.2-.6 13.9 5.3 28.7 8.8 43.2 8.8 77.4 0 98-54.5 99.2-58.4 2.5-10.1 3.8-20.7 3.8-31.6C576 61 513.1 0 436 0c-32.2 0-67.2 16.5-104.3 49-17.5 15.4-32.7 31.8-44.2 45l.5.5z"/>
   </g>
   
-  <!-- Nose replaced with number 1 -->
+  <!-- Nose replaced with number -->
   <circle cx="200" cy="250" r="15" fill="#1e005d"/>
   <text x="200" y="250" font-family="Arial" font-size="20" fill="white" text-anchor="middle" dominant-baseline="central">3</text>
   
-  <!-- Mouth -->
+  <!-- Mouth (adjusted for contrast) -->
   <path d="M170 280 Q 200 300 230 280" fill="none" stroke="#1e005d" stroke-width="3"/>
   
-  <!-- Whiskers -->
-  <g stroke="#522785" stroke-width="2">
+  <!-- Whiskers (adjusted for contrast) -->
+  <g stroke="#1e005d" stroke-width="2">
     <line x1="140" y1="260" x2="100" y2="250"/>
     <line x1="140" y1="270" x2="100" y2="270"/>
     <line x1="140" y1="280" x2="100" y2="290"/>
@@ -51,7 +62,7 @@
         d="M35,200 A165,165 0 1,1 365,200"
         fill="none"/>
   
-  <text fill="#ffffff" font-family="Arial" font-weight="bold" font-size="22">
+  <text fill="#1e005d" font-family="Arial" font-weight="bold" font-size="22">
     <textPath href="#textPath" startOffset="50%" text-anchor="middle">
       ICP MASTERS MOTOKO CATMATES
     </textPath>
